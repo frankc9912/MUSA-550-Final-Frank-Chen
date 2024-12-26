@@ -1,21 +1,20 @@
 ---
 title: "About Me"
-toc: false
+format: html
 ---
 
-<div style="display: flex; gap: 10px; align-items: flex-start;">
+## My Story
 
-<img src="images/Eric.png" alt="Eric Delmelle" style="width: 170px; border-radius: 10px;">
-
-<div>
-  <p><span style="color:red">Hello everyone</span></p>
-  <p>On this about page, you might want to add more information about yourself, the project, or course. </p>
-
-  - My name is *Eric* **Delmelle**, the instructor for the course. 
-  - You can find more information about me on my [personal website](https://www.design.upenn.edu/people/eric-delmelle).
-  - <span style="color:orange">This site is an example site showing how to use Quarto for the final project for MUSA 550, during fall 2024.</span>
-  - <span style="color:gray">Write something about you</span>
-    - <span style="color:red">or about something you like</span>
+<div style="display: flex; align-items: flex-start;">
+  <img src="images/Frank.jpg" alt="Frank Chen" style="width: 150px; margin-right: 15px;">
+  <p>Hello everyone, My name is **Frank Chen**, the author of this project. I'm currently enrolled in a dual degree program of <span style="color: orange;">*Master of City Planning*</span> and <span style="color: orange;">*Master of Urban Spatial Analytics*</span> at University of Pennsylvania's Weitzman School of Design. Before I came to Philadelphia, I completed the 5-year undergraduate study and research at Tianjin University.<br><br>
+  I'm a data enthusiast and urban planner, and I'm passionate about using data and technology to solve urban problems and make our cities more sustainable, equitable, and resilient. I'm interested in a wide range of topics, including spatial optimization, housing, urban mobility, and public health. I have experience in data analysis, spatial analysis, and data visualization, and I currently work as a research assistant at Housing Initiative at Penn.</p>
 </div>
 
-</div>
+## Contact
+
+If you have any question or suggestions about my project, I am always looking forward to hearing from you!
+
+- **Email**: [fchen9@upenn.edu](mailto:fchen9@upenn.edu)
+- **GitHub**: [https://github.com/frankc9912](https://github.com/frankc9912)
+- **LinkedIn**: [https://www.linkedin.com/in/fang-chen-0648812b0](https://www.linkedin.com/in/fang-chen-0648812b0/) 

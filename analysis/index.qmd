@@ -1,11 +1,31 @@
 # Analysis 
 
-This section includes examples of technical analysis done using Jupyter notebooks.
-Each sub-section highlights different types of analyses and visualizations.
-In particular, it highlights that we can easily publish interactive visualizations
-produced with packages such as hvPlot, altair, or Folium, without losing
-any of the interactive features. 
+In this project, I will analyze the income changes of Philadelphia retail stores from 2019 to 2024, and forecast future trends. This is crucial for understanding the city's economic health and guiding strategic decisions for businesses and policymakers.
 
-On this page, you might want to share more introductory or background information about 
-the analyses to help guide the reader. 
+You can access each section on the left or click the links below:
 
+### **[Background](background.qmd)**
+*Estimated read time: 2 min*
+
+"The retail landscape in Philadelphia has undergone significant changes between 2019 and 2024, which is caused by economic shifts, consumer behavior changes, and the long-term effects of the COVID-19 pandemic."
+
+### **[Data Source](data_source.ipynb)**
+*Estimated read time: 2 min*
+
+"In this section, I will show how to get the data for this project. I will give an example of using API to call the **foot traffic data** provided by [Dewey](https://www.deweydata.io/)."
+
+
+### **[Exploratory Analysis](exploratory.ipynb)**
+*Estimated read time: 4 min*
+
+"In this section, I will explore the foot traffic data and the spend patterns data, and try to have more insights about the changes over time by visualizing them."
+
+### **[Modeling](prediction.ipynb)**
+*Estimated read time: 8 min*
+
+"In this section, I will construct the model using Random Forest Regressor from the scikit-learn library. There will be 4 models in total, each with different features, and I will compare the performance of each model using the median absolute error and the R-squared score."
+
+### **[Conclusion and Limitation](conclusion.qmd)**
+*Estimated read time: 3 min*
+
+"This project can inform business owner to strategize cost management, or adapt to changing consumer behaviors. However, the project has a key limitation: the dataset used does not cover all stores in Philadelphia but only a relatively big sample."

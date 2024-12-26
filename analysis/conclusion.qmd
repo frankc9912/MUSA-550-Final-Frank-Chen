@@ -1,0 +1,15 @@
+# Conclusion and Limitation
+
+## Conclusion
+
+This project analyzed the income changes of Philadelphia stores from 2019 to 2024, and forecast the income of 2025 using July data of each year from ADVAN and SafeGraph.
+
+The data shows that the total number of visits and the total number of visitors first decreased vastly in 2020 due to the COVID-19 pandemic, and then started to recover in 2021 and reached a peak in 2022, but then decreased again. Spatial wise, the most visited places are in the Center City area and the airport. In terms of total income and total number of transactions, the number of visits started to decrease again in 2022 but seemed to stay steady at the same level of pre-pandemic period. Spatial wise, the total income is higher in the Center City area, which is consistent with the total number of visits. However, it is also high in the northwestern and northeastern parts of the city, which may be related to the higher average spend or the average number of transactions per visit is in these areas.
+
+This project also builds a machine learning model to predict the store income of 2025 using Random Forest algorithm. It also only involves some spatial features using K Nearest Neighbor (K=5 in this project) that help reduce the error. Four models using different features are compared and I use the model with best performance in terms of median absolute error and R-squared to make prediction. The result shows that there would be a significant decrease on total income in Philadelphia, the mean income of stores would also decrease but is much more steady compared to the total income.
+
+Thus, this project can inform business owner to strategize cost management, or adapt to changing consumer behaviors. Meanwhile, this project can be a good tool for local governments and urban planners to make decisions about economic development and investment in Philadelphia's retail sector.
+
+## Limitation
+
+However, the project has a key limitation: the dataset used does not cover all stores in Philadelphia but only a relatively big sample. This limitation suggests the need for more comprehensive data to improve the accuracy of future analyses. Furthermore, more features could be introduced to the model, such as local demographic characteristics.
